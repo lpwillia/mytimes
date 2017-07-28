@@ -51,16 +51,19 @@ span a {
 	width: 1200px;
 }
 
-.column.large {
-	width: 630px;
-
+.column {
+	display; flex
 }
 
-.column.medium {
+.large {
+	width: 630px;
+}
+
+.medium {
 	width: 300px;
 }
 
-.column.small {
+.small {
 	width: 240px;
 }
 
