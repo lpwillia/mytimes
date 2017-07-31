@@ -58,7 +58,6 @@ span a {
 
 .large {
 	width: 630px;
-	align-items: horizontal;
 }
 
 .medium {
@@ -85,7 +84,6 @@ span a {
 	color: white;
 	height: 300px;
 	justify-content: center;	
-
 }
 
 .narrative {
@@ -113,15 +111,58 @@ span a {
 }
 
 .stories {
+	justify-content: space-between;
+	width: 300px;
+}
+
+#bites {
 	display: flex;
-	align-items: space-between;
+	font-size: 16px;
+  	font-weight: bold;
+	padding: 30px;
+	width: 240px;
+	margin: auto;
+	border: 1px solid black;
 }
 
-#earth {
-	width: 280px;
+.list {
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+  	font-family: Verdana;
+  	font-size: 12px;
+ 	color: DimGray;
+ 	padding: 10px 10px 10px 10px;
+ 	margin: 0px;
+ 	text-overflow: wrap;
+ 	display: relative;
 }
 
-#research {
-	width: 280px;
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: MediumAquamarine;
+  	margin: auto;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	position: relative;
+  	height: 300px;
 }
 
+#title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;	
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+
+.copyright {
+	display: block;
+}
+
+.footer-nav {
+	padding-left: 20px;
+}
